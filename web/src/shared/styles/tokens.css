@@ -1,0 +1,65 @@
+/* ============================================================
+   设计 Tokens —— 来源：网页产品设计与 WorkBuddy 交接规范 §13
+   深色海军蓝机构级金融界面。颜色不单独承担语义，
+   必须与文字/图标一同使用（见 §13.1 / §18）。
+   ============================================================ */
+:root {
+  /* --- 背景 --- */
+  --bg-canvas: #08111f;
+  --bg-sidebar: #07101d;
+  --bg-card: #101c2d;
+  --bg-card-elevated: #142237;
+  --border-default: #24344a;
+
+  /* --- 文字 --- */
+  --text-primary: #f4f7fb;
+  --text-secondary: #a9b6c8;
+  --text-muted: #738298;
+
+  /* --- 语义色 --- */
+  --brand-primary: #4f8cff; /* 组合 / 主要动作 */
+  --benchmark: #a985f9; /* 基准 */
+  --success: #3bcb83; /* 已验证通过的正常状态 */
+  --warning: #f5a524; /* 需要注意 / 人工确认 */
+  --danger: #f05d6f; /* 硬阻断 / 严重风险 */
+  --info: #5cb8ff; /* 信息 */
+
+  /* --- 状态底色（低饱和，仅作背景衬托，仍需文字） --- */
+  --status-pass-bg: rgba(59, 203, 131, 0.12);
+  --status-pass-fg: #3bcb83;
+  --status-warn-bg: rgba(245, 165, 36, 0.14);
+  --status-warn-fg: #f5a524;
+  --status-block-bg: rgba(240, 93, 111, 0.16);
+  --status-block-fg: #f05d6f;
+  --status-info-bg: rgba(92, 184, 255, 0.12);
+  --status-info-fg: #5cb8ff;
+
+  /* --- 间距 --- */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+
+  /* --- 形状 --- */
+  --radius-card: 12px;
+  --radius-control: 8px;
+  --border-width: 1px;
+
+  /* --- 布局尺寸 --- */
+  --sidebar-width: 232px;
+  --header-height: 56px;
+  --page-padding: 24px;
+  --card-gap: 16px;
+  --content-max: 1920px;
+
+  /* --- 字体 --- */
+  --font-family: Inter, "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+
+  --z-header: 100;
+  --z-sidebar: 90;
+  --z-devpanel: 200;
+  --z-dialog: 300;
+}
